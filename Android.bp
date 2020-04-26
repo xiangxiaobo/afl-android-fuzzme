@@ -1,0 +1,9 @@
+cc_binary{
+    name:"afl-fuzzme",
+    srcs:[
+        "main.c",
+    ],
+    static_libs:[
+        "afl-llvm-rt",
+    ],    
+}
